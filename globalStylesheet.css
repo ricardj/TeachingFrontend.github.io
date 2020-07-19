@@ -1,0 +1,11 @@
+* {
+  text-align: center;
+}
+h1 {
+  font-size: 100px;
+  color: white;
+  font-family: "Press Start 2P", cursive;
+}
+body {
+  background-color: black;
+}
