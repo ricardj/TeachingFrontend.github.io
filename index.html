@@ -1,20 +1,7 @@
 <html>
   <head>
     <title>Hello world</title>
-    <script>
-      var counterText = document.getElementsByName("CounterText")[0];
-      var currentCounter = 0;
-      function StartCounter() {
-        counterText = document.getElementsByName("CounterText")[0];
-        currentCounter = 0;
-        setInterval(IncreaseCounter, 20);
-      }
-
-      function IncreaseCounter() {
-        currentCounter++;
-        counterText.textContent = currentCounter;
-      }
-    </script>
+    <script src="utilityFunctions.js"></script>
   </head>
   <body>
     <h1 style="color: blue;" name="CounterText">Hello world</h1>
